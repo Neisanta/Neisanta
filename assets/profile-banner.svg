@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Nathan Willian Campos — Desenvolvedor de Software</title>
+  <desc id="desc">Banner com fundo escuro, detalhes em roxo e azul e texto de apresentação profissional.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b16"/>
+      <stop offset="0.55" stop-color="#111329"/>
+      <stop offset="1" stop-color="#171033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.2" cy="0.25" r="0.55">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.85" cy="0.8" r="0.5">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glowA)"/>
+  <rect width="1200" height="300" fill="url(#glowB)"/>
+
+  <g opacity="0.8" filter="url(#soft)">
+    <circle cx="1050" cy="58" r="72" fill="#6366f1" fill-opacity="0.22"/>
+    <circle cx="1100" cy="240" r="96" fill="#8b5cf6" fill-opacity="0.16"/>
+  </g>
+
+  <path d="M0 268 C250 218 430 302 690 246 C910 198 1050 224 1200 188 L1200 300 L0 300 Z" fill="#111329" fill-opacity="0.75"/>
+  <path d="M0 268 C250 218 430 302 690 246 C910 198 1050 224 1200 188" fill="none" stroke="url(#accent)" stroke-opacity="0.65" stroke-width="2"/>
+
+  <rect x="72" y="61" width="52" height="4" rx="2" fill="url(#accent)"/>
+  <text x="72" y="126" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-0.7">Nathan Willian Campos</text>
+  <text x="74" y="168" fill="#c4b5fd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600">Desenvolvedor de Software</text>
+  <text x="74" y="205" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">PHP · MySQL · JavaScript · SQL · APIs REST · Git</text>
+
+  <g transform="translate(940 104)">
+    <rect width="182" height="66" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="91" y="27" text-anchor="middle" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">DISPONÍVEL PARA</text>
+    <text x="91" y="49" text-anchor="middle" fill="#a5b4fc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">ESTÁGIO / JÚNIOR</text>
+  </g>
+</svg>
