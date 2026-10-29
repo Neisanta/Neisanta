@@ -53,7 +53,7 @@ Desenvolvo projetos próprios de aplicações web com foco em **backend, modelag
       <p><strong>Organização financeira pessoal com PHP, MySQL e JavaScript.</strong> Dashboard, receitas, despesas, contas, categorias, metas, cartões, compromissos e assistente com IA. As APIs usam autenticação, JSON e endpoints REST-style; o módulo de mercado consulta provedores públicos e informa fonte, horário e estado do cache.</p>
       <p><code>PHP</code> <code>MySQL</code> <code>JavaScript</code> <code>REST-style API</code></p>
       <p><a href="https://github.com/Neisanta/FinLife">Código</a> · <a href="https://finlife.spssolar.com.br/login">Demonstração</a></p>
-      <p><em>Projeto em evolução; não possui integração com Open Finance ou接続 bancária real.</em></p>
+      <p><em>Projeto em evolução; não possui integração com Open Finance ou conexão bancária real.</em></p>
     </td>
     <td width="50%" valign="top">
       <h3>Omigos Chat</h3>
